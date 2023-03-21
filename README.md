@@ -1,4 +1,4 @@
-# Raspberry Pi 3 Model B / B+
+# Raspberry Pi 3 Model B / B+ Intuitivo
 
 [![CircleCI](https://circleci.com/gh/nerves-project/nerves_system_rpi3.svg?style=svg)](https://circleci.com/gh/nerves-project/nerves_system_rpi3)
 [![Hex version](https://img.shields.io/hexpm/v/nerves_system_rpi3.svg "Hex version")](https://hex.pm/packages/nerves_system_rpi3)
@@ -29,7 +29,7 @@ This is the base Nerves System configuration for the Raspberry Pi 3 Model B.
 ## Using
 
 The most common way of using this Nerves System is create a project with `mix
-nerves.new` and to export `MIX_TARGET=rpi3`. See the [Getting started
+nerves.new` and to export `MIX_TARGET=rpi3_intuitivo`. See the [Getting started
 guide](https://hexdocs.pm/nerves/getting-started.html#creating-a-new-nerves-app)
 for more information.
 
