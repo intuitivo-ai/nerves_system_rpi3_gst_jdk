@@ -1,8 +1,8 @@
-defmodule NervesSystemRpi3.MixProject do
+defmodule NervesSystemRpi3.MixProjectIntuitivo do
   use Mix.Project
 
-  @github_organization "nerves-project"
-  @app :nerves_system_rpi3
+  @github_organization "intuitivo-ai"
+  @app :nerves_system_rpi3_gst_jdk
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
@@ -76,7 +76,7 @@ defmodule NervesSystemRpi3.MixProject do
 
   defp description do
     """
-    Nerves System - Raspberry Pi 3 B / B+
+    Nerves System - Raspberry Pi 3 B / B+ Intuitivo
     """
   end
 
