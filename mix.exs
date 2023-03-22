@@ -2,7 +2,7 @@ defmodule NervesSystemRpi3.MixProjectIntuitivo do
   use Mix.Project
 
   @github_organization "intuitivo-ai"
-  @app :nerves_system_rpi3_gst_jdk
+  @app :nerves_system_rpi3_intuitivo
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
